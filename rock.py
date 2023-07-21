@@ -1,12 +1,9 @@
-def is_palind(isp):
+def is_pal(isp):
     return isp.lower() == isp.lower()[::-1]
-
-is_p = is_palind(input('Напишите текст для проверки на палиндром>> '))
-
+is_p = is_pal(input('Напишите текст для проверки:'))
 if is_p == True:
-    print('Это палиндром')
-
+    print('Палиндром')
 else:
-    print('Это не палиндром')
+    print('Не палиндром')
 
 
